@@ -2,22 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>EXAM html/css</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="wrapper-background-grey">
     <div class="w-1280">
 <!---------------------------------header---------------------------->
-        <header>
+        <header id="home">
             <img src="media/Group 2 (1).svg" alt="logo">
             <nav>
                 <ul>
-                    <li><a>Home</a></li>
-                    <li><a>About us</a></li>
-                    <li><a>Service</a></li>
-                    <li><a>Contact us</a></li>
-                    <li class="blue-login"><a>Login</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-us">About us</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#contact-us">Contact us</a></li>
+                    <li class="blue-login" ><a href="http://localhost:63342/EXAM-html-css/login.html?_ijt=nbcsb40hhi0dnlagdtrpuq5cj5&_ij_reload=RELOAD_ON_SAVE" target="_blank">Login</a></li>
                 </ul>
             </nav>
         </header>
@@ -26,7 +26,7 @@
             <div class="web-hosting">
                 <h1>Fully Managed Cloud & Web Hosting</h1>
                 <p>Dedicated resources, full root access, & easy scaling. It’s the virtual private server you’ve been cravin</p>
-                <button>View Pricing</button>
+                <button><a href="#pricings">View Pricing</a></button>
             </div>
             <img src="media/casual-life-3d-excited-young-woman-receiving-like-notifications-on-her-laptop 1 (1).png" alt="young-woman-3d">
         </section>
@@ -41,8 +41,8 @@
                 <h3>Search Your Domain Now</h3>
                 <form>
                     <label>
-                        <input class="input-search" type="search" name="search" placeholder="Search your domain...">
-                        <input class="input-submit" type="submit" name="submit">
+                        <input class="input-search" type="search" placeholder="Search your domain...">
+                        <input class="input-submit" type="submit" value="Find Now" >
                     </label>
                 </form>
             </div>
@@ -83,7 +83,7 @@
 <!--------------------------main-our-services--------------------->
 <div class="wrapper-background-lightgrey">
     <div class="w-1280">
-        <main class="our-services">
+        <main id="service" class="our-services">
             <h2>Our Services</h2>
 <!---------------------------grid----------------------->
             <div class="grid">
@@ -174,7 +174,7 @@
 <!---------------------numbers-hosting--------------->
 <div class="wrapper-background-blue">
     <div class="w-1280">
-        <article class="numbers-hosting">
+        <article id="about-us" class="numbers-hosting">
             <div>
                 <h4>70K</h4>
                 <p>Shared Web Hosting</p>
@@ -197,7 +197,7 @@
 <!-----------------------Plan------------------------->
 <div class="wrapper-background-white">
     <div class="w-1280">
-        <section class="plan">
+        <section id="pricings" class="plan">
             <h3>Our Flexible Plan</h3>
             <div class="wrapper-plan">
                 <div>
@@ -246,7 +246,7 @@
                     <p><span>24/7</span> Support</p>
                     <p><span>2GB NVMe</span> Storage</p>
                     <p><span>Free</span> SSL Certificate</p>
-                    <button>Buy Now</button>
+                    <button>Buy Now </button>
                 </div>
             </div>
         </section>
@@ -255,7 +255,7 @@
 <!----------------------------------footer------------------------->
 <div class="wrapper-background-lightgrey">
     <div class="w-1280">
-        <footer>
+        <footer id="contact-us">
             <div class="footer-logo">
                 <img src="media/Group 2 (1).svg" alt="logo">
                 <p>Nulla diam felis, malesuada ut erat quis, mattis dignissim justo. Cras cursus, lacus et dignissim volutpat</p>
@@ -263,10 +263,10 @@
             <div class="footer-navigation-quick-links">
                 <h6>Quick Links</h6>
                 <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Services</li>
-                    <li>Contact Us</li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
                 </ul>
             </div>
             <div class="footer-navigation-services">

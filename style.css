@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -77,17 +80,19 @@ h1{
     font-weight: 400;
     line-height: normal;
 }
-.web-hosting button{
+.web-hosting button {
+    border-radius: 5px;
+    background: #0098FF;
+    border: none;
+    padding: 17px 38px;
+}
+.web-hosting button a{
     color: #FFF;
     font-family: Poppins,sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    border-radius: 5px;
-    background: #0098FF;
-    border: none;
-    padding: 17px 38px;
 }
 /*<----------------------------section-search------------------------>*/
 .wrapper-background-white{
@@ -98,9 +103,6 @@ h1{
     align-items: center;
     justify-content: space-between;
     margin: 200px 0;
-}
-.wrap-domain{
-    border-left: 1px solid #03045E;
 }
 .wrap-input h3{
     color: #03045E;
@@ -123,7 +125,7 @@ form{
     border: none;
     border-radius: 0 5px 5px 0;
     background: #0098FF;
-    padding: 15px 38px;
+    padding: 16px 38px;
     margin-left: -3px;
 }
 .input-search{
@@ -142,10 +144,13 @@ form{
 }
 
 /*--------------------domain----------------------*/
+.wrap-domain{
+    border-left: 1px solid #03045E;
+}
 .wrap-domain-flex-top,.wrap-domain-flex-bottom{
     display: flex;
     gap: 115px;
-    padding-left: 80px;
+    padding-left: 65px;
 }
 .wrap-domain-flex-top h5,.wrap-domain-flex-bottom h5{
     color: #0098FF;
@@ -508,3 +513,35 @@ footer{
     justify-content: space-between;
     padding: 40px 0;
 }
+/*-------------------------all-hovers-------------------------*/
+.web-hosting button:hover{
+    transition: 0.3s;
+    background-color: #84bdea;
+    transform: scale(105%);
+}
+.input-submit:hover{
+    transition: 0.3s;
+    background-color: #84bdea;
+}
+.wrapper-clients article:hover{
+    transition: 0.3s;
+    transform: scale(105%);
+}
+.wrapper-plan div:hover{
+    transition: 0.5s;
+    transform: scale(105%);
+}
+.wrapper-plan div button:hover{
+    transition: 0.3s;
+    background-color: #0560a3;
+}
+.blue-login a:hover{
+    transition: 0.3s;
+    background-color: #0882dd;
+}
+.blue-login:hover{
+    transition: 0.3s;
+    transform: scale(103%);
+}
+
+
